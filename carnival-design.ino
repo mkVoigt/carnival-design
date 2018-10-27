@@ -75,6 +75,6 @@ void loop() {
 ****************************************/
 void open_door() {
   digitalWrite(LED_BUILTIN, HIGH);
-  door_servo.write(90);
+  door_servo.write(170);
   return;
 }
